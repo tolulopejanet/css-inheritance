@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance css</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            font-size: 24px;
+            
+        }
+        ol#likes{
+            color: red;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        #likes .like_list, #dislikes .dislike_list{
+            color: blue;
+            text-transform: capitalize;
+            font-weight: normal;
+            font-size: 18px;
+        }
+        ul#dislikes{
+            color: green;
+            font-weight: bold;
+        }
+        #dislikes .dislike_list{
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <ol id="likes">What I Like
+        <li class="like_list">Reading books</li>
+        <li class="like_list">Seeing movies</li>
+        <li class="like_list">Having meaningful conversations</li>
+        <li class="like_list">Programming to make life easier</li>
+    </ol>
+
+    <ul id="dislikes">What I Dislike
+        <li class="dislike_list">Noise making</li>
+        <li class="dislike_list">Funds squandering</li>
+        <li class="dislike_list">Wasting time</li>
+        <li class="dislike_list">Delay</li>
+    </ul>
+</body>
+</html>
+
+git push -u origin main
